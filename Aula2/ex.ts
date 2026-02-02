@@ -83,12 +83,12 @@ class ListHandler<T> {
     }
 }
 
-const handler = new ListHandler<number>();
+const lista = new ListHandler<number>();
 
-handler.add(10);
-handler.add(20);
-handler.add(30);
+lista.add(10);
+lista.add(20);
+lista.add(30);
 
-handler.remove(20);
+lista.remove(20);
 
-console.log(handler.getAll()); 
+console.log(lista.getAll()); 
