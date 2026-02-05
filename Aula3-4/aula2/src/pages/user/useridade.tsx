@@ -8,7 +8,7 @@ function PerfilUser(){
     }
 
     return(
-        <div className="">
+        <div className="main-container">
             <p>Nome: {user.nome}</p>
             <p>Idade {user.idade}</p>
             <button onClick={addidade}>Ficar mais velho</button>
